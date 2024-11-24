@@ -6,5 +6,7 @@ const global = {
 
 // init app
 function init() {
-    
+    switch (global.currentPage) {
+      
+    }
 }
