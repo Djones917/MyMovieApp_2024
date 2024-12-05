@@ -13,4 +13,4 @@ function init() {
     }
 }
 
-document.addEventListener();
+document.addEventListener('DOMContentLoaded', init);
