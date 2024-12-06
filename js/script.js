@@ -10,6 +10,8 @@ function init() {
       case '/':
       console.log('home');
       break;
+      case '/shows.html':
+        console.log('Shows');
     }
 }
 
