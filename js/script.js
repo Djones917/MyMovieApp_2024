@@ -14,7 +14,7 @@ function init() {
         console.log('Shows');
       break;
       case '/movies-details.html':
-        
+        console.log('Movie Details');
     }
 }
 
