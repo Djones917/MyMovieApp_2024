@@ -12,6 +12,9 @@ function init() {
       break;
       case '/shows.html':
         console.log('Shows');
+      break;
+      case '/movies-details.html':
+        
     }
 }
 
