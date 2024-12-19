@@ -15,6 +15,7 @@ function init() {
       break;
       case '/movies-details.html':
         console.log('Movie Details');
+        break;
     }
 }
 
