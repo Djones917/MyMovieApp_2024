@@ -16,6 +16,9 @@ function init() {
       case '/movies-details.html':
         console.log('Movie Details');
         break;
+      case '/tv-details.html':
+        console.log('TV Details');
+        break;  
     }
 }
 
