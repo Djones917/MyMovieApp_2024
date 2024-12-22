@@ -18,6 +18,9 @@ function init() {
         break;
       case '/tv-details.html':
         console.log('TV Details');
+        break; 
+      case '/search.html':
+        console.log('Search');
         break;  
     }
 }
