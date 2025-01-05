@@ -4,6 +4,11 @@ const global = {
     currentPage: window.location.pathname,
 };
 
+// Highlight active link
+function highlightActiveLink() {
+
+}
+
 // init app
 function init() {
     switch (global.currentPage) {
