@@ -6,7 +6,7 @@ const global = {
 
 // Highlight active link
 function highlightActiveLink() {
-
+   const links = document.querySelectorAll('.nav-link');
 }
 
 // init app
