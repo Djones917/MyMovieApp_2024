@@ -9,7 +9,7 @@ function highlightActiveLink() {
    const links = document.querySelectorAll('.nav-link');
    links.forEach((link) => {
     if (link.getAttribute('href') === global.currentPage) {
-
+      link.classList.add('active');
     }
    });
 }
