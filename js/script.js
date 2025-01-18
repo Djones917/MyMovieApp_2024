@@ -34,6 +34,8 @@ function init() {
         console.log('Search');
         break;  
     }
+
+    highlightActiveLink();
 }
 
 document.addEventListener('DOMContentLoaded', init);
