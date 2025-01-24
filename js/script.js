@@ -4,6 +4,9 @@ const global = {
     currentPage: window.location.pathname,
 };
 
+// Fetch data from TMDB API
+
+
 // Highlight active link
 function highlightActiveLink() {
    const links = document.querySelectorAll('.nav-link');
