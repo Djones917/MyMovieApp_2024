@@ -5,7 +5,9 @@ const global = {
 };
 
 // Fetch data from TMDB API
-
+async function fetchAPIData(endpoint) {
+  
+}
 
 // Highlight active link
 function highlightActiveLink() {
