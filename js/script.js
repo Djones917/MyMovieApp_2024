@@ -7,6 +7,7 @@ const global = {
 // Fetch data from TMDB API
 async function fetchAPIData(endpoint) {
   const API_KEY = '51cb1709f168a62834a8059395fb0fec';
+  const API_URL = 'https://'
 }
 
 // Highlight active link
