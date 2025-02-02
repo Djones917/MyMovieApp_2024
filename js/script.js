@@ -7,7 +7,7 @@ const global = {
 // Fetch data from TMDB API
 async function fetchAPIData(endpoint) {
   const API_KEY = '';
-  const API_URL = 'https://'
+  const API_URL = 'https://api.themoviedb.org/3/'
 }
 
 // Highlight active link
