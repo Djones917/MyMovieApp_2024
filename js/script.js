@@ -9,7 +9,7 @@ async function fetchAPIData(endpoint) {
   const API_KEY = '';
   const API_URL = 'https://api.themoviedb.org/3/';
 
-  const response = await fetch ('${API_URL}${endpoint}?api_key=${API_KEY}');
+  const response = await fetch ('${API_URL}${endpoint}?api_key=${API_KEY}&language=en-US');
 }
 
 // Highlight active link
