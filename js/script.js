@@ -12,6 +12,8 @@ async function fetchAPIData(endpoint) {
   const response = await fetch ('${API_URL}${endpoint}?api_key=${API_KEY}&language=en-US');
 
   const data = await response.json();
+
+  return data;
 }
 
 // Highlight active link
