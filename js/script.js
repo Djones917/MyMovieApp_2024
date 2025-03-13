@@ -4,6 +4,10 @@ const global = {
     currentPage: window.location.pathname,
 };
 
+async function displayPopularMovies() {
+  
+}
+
 // Fetch data from TMDB API
 async function fetchAPIData(endpoint) {
   const API_KEY = '';
