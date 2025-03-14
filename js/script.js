@@ -5,7 +5,7 @@ const global = {
 };
 
 async function displayPopularMovies() {
-  const results = await fetchAPIData();
+  const results = await fetchAPIData('movie/popular');
 }
 
 // Fetch data from TMDB API
