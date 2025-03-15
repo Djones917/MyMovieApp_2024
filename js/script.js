@@ -36,7 +36,7 @@ function init() {
     switch (global.currentPage) {
       case '/':
         case '/index.html':
-      console.log('home');
+      displayPopularMovies();
       break;
       case '/shows.html':
         console.log('Shows');
