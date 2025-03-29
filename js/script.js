@@ -9,6 +9,7 @@ async function displayPopularMovies() {
   
   results.forEach(movie => {
     const div + document.createElement('div');
+    div.classList.add('card');
   });
 }
 
