@@ -7,7 +7,9 @@ const global = {
 async function displayPopularMovies() {
   const { results } = await fetchAPIData('movie/popular');
   
-  results.forEach();
+  results.forEach(movie => {
+    const div + document.createElement('div');
+  });
 }
 
 // Fetch data from TMDB API
